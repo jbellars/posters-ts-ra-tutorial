@@ -16,10 +16,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "noImplicitThis": true,
     "strictNullChecks": true,
-    "strict": false
+    "strict": false,
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "src"

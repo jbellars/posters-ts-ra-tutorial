@@ -1,8 +1,8 @@
-import CommandIcon from '@material-ui/icons/AttachMoney';
+import CommandIcon from '@material-ui/icons/AttachMoney'
 
-import { CommandList } from './CommandList';
+import { CommandList } from './CommandList'
 
 export default {
-    list: CommandList,
-    icon: CommandIcon,
-};
+	list: CommandList,
+	icon: CommandIcon,
+}

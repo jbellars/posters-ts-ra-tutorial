@@ -1,7 +1,10 @@
-import React from 'react';
-import { Layout } from 'react-admin';
-import MyAppBar from './MyAppBar';
+import React, { PropsWithChildren, ReactElement } from 'react'
+import { CoreLayoutProps, Layout } from 'react-admin'
+import MyAppBar from './MyAppBar'
 
-const MyLayout = props => <Layout {...props} appBar={MyAppBar} />;
+/* eslint-disable  @typescript-eslint/no-explicit-any */
+const MyLayout = (props: PropsWithChildren<CoreLayoutProps>): ReactElement => (
+	<Layout {...props} appBar={MyAppBar} />
+)
 
-export default MyLayout;
+export default MyLayout
